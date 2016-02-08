@@ -1,0 +1,59 @@
+Specification review exercise:
+
+1-	What is a writable user? 
+2-	What are other types of users?
+3-	Will there be any case when user cannot edit profile?
+4-	What kind of error message should be provided when profile cannot be edited or fails to edit.
+5-	Does the user receive any email confirmation on sign up on HomeAway?
+6-	Can a user allowed to edit profile before they confirm their identity?
+7-	Should a CSR be allowed to edit profile for a user who has not identified them?
+8-	Can a CSR person resend activation email incase user does not receive it or missed to click on verification link in the email?
+9-	What information CSR can update? Do we really need edit profile for CSR?
+10-	Why CSR has functionality of change password for the user? If the user can login, they can change their password.
+11-	CSR should have reset password feature instead of change password
+12-	What kind of confirmation message user receives when they update their profile/ password?
+13-	In what cases, user will call CSR to update profile?
+14-	Does CSR have access to link / unlink “Linked account”?
+15-	If the user de-activates the account, can CSR re-activate it?
+16-	Is user allowed to linked multiple accounts? 
+17-	Can user de-link and re-link previous linked account?
+18-	What happens when same account is linked twice?
+19-	Can user link same fb account with multiple profiles?
+20-	What are the error conditions for Edit profile and change password?
+21-	Once user de-activates their profile, are they logged out immediately? And what notification they receive?
+22-	What other accounts user can link with their profile?
+23-	How does the user link accounts?
+24-	Why name field on the edit profile page is a dropdown?
+25-	Once user changes / updated profile information, does system force the user for re-verification?
+26-	What happens when profile cannot be saved / password cannot be changed? What error messages user should see?
+27-	Does the reset password link expire after any specific time?
+28-	Can the user login with previous password after reset password is processed?
+29-	Can user change password to previously used password?
+30-	Can user update all fields?
+
+
+
+
+
+
+1-	Why do we need to build feature for CSR when they should not be allowed to change password for the user.
+a.	As SCR they should be able to reset password if needed but they should not be allowed to change password for the user. Else this is a security issue.
+b.	I am expecting that Product manager will hold on the development of the change password feature.
+c.	There is no impact on development work with this decision as the whole password change feature is on hold.
+2-	What notification user should receive
+a.	This is a very important aspect of the whole product, which directly impacts user. Product specification does not talk about any error conditions, messages or notifications.
+b.	I am expecting that Product manager will give us clarification on most important notification such as verification emails, user notification on password change as they impact the user directly as well as they confirm user activity.
+c.	There is impact on development work. Some error messages, engineering team can come up on their own, which are self-explanatory but email communications need to be defined.
+3-	Can user change password to previously used password?
+a.	Password is a very imp part of online business. User profile and user data is protected only with the password. Most of the companies does not allow user to use previously used passwords and in the specification, there is explanation what should happen when password is changed with previously used password.
+b.	I am expecting, the Product manager will allow us not to use previously used passwords for security purpose.
+c.	There is impact on development work as they need to implement login, which will not allow user to use previously used passwords.
+4-	CSR should be allowed to resent activation email 
+a.	Product specification does not talk anything about resent activation.
+This is a imp feature for the user to use the website. If they cannot activate their profile, they wont be able to use our business
+b.	I expect the product manager will direct us to build this feature as it is directly impacting user and the business. 
+c.	There is work involved for development team to build this feature for CSR
+5-	How does the user re-activates account?
+a.	Product specification does not talk about account re-activation for user or for CSR. This is important aspect of the account as user should be able to re-activate the account or ask CSR to re-activate it. De-activation might have happened with some purpose or by mistake but getting the user back on the system is imp for the company. Also there is no explanation when user with de-activated profile tries to login to the system.
+b.	I expect that product manager will agree to build a feature for re-activating user profile as CSR. She might not agree that we should give this option to the user as they are the one who de-activated their profile but CSR should be allowed to re-activate the user.
+c.	There is surely work involved for development team to build this option in CS tools.
