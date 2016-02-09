@@ -1,0 +1,7 @@
+Automation Test 3: 
+
+1- The list of 3 bugs as below:
+
+  a- Test case is not able to find a bug related to Failed message as it checks for Size of the message where as it need to assert on "If the recipient is added"
+  b- Array list adds messahge when message is empty. We need to add message when message list is not empty.
+  c- Add receipient to message should retun when message is successful and not when message fail
