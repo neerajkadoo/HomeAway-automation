@@ -1,4 +1,4 @@
-Specification review exercise:
+Specification review exercise: TEST 4
 
 1-	What is a writable user? 
 2-	What are other types of users?
@@ -32,12 +32,8 @@ Specification review exercise:
 30-	Can user update all fields?
 
 
-
-
-
-
 1-	Why do we need to build feature for CSR when they should not be allowed to change password for the user.
-a.	As SCR they should be able to reset password if needed but they should not be allowed to change password for the user. Else this is a security issue.
+a.	As SCR they should be able to reset password if needed, but they should not be allowed to change password for the user. Else this is a security issue.
 b.	I am expecting that Product manager will hold on the development of the change password feature.
 c.	There is no impact on development work with this decision as the whole password change feature is on hold.
 2-	What notification user should receive
