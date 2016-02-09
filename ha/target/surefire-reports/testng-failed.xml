@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Cases]">
+  <test name="Firefox Test(failed)">
+    <classes>
+      <class name="com.mvn.ha.AccountDetailsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="accountDetails"/>
+        </methods>
+      </class> <!-- com.mvn.ha.AccountDetailsTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Test Cases] -->

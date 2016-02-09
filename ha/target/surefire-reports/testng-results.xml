@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Cases" duration-ms="69173" started-at="2016-02-08T18:06:44Z" finished-at="2016-02-08T18:07:53Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="69173" started-at="2016-02-08T18:06:44Z" finished-at="2016-02-08T18:07:53Z">
+      <class name="com.mvn.ha.HomeawayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvn.ha.HomeawayTest@17c68925]" name="setUp" is-config="true" duration-ms="7174" started-at="2016-02-08T10:06:44Z" finished-at="2016-02-08T10:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkIphone4s()[pri:0, instance:com.mvn.ha.HomeawayTest@17c68925]" name="checkIphone4s" duration-ms="25061" started-at="2016-02-08T10:06:51Z" finished-at="2016-02-08T10:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIphone4s -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mvn.ha.HomeawayTest@17c68925]" name="afterClass" is-config="true" duration-ms="5" started-at="2016-02-08T10:07:16Z" finished-at="2016-02-08T10:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvn.ha.HomeawayTest@17c68925]" name="setUp" is-config="true" duration-ms="5392" started-at="2016-02-08T10:07:16Z" finished-at="2016-02-08T10:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emptyCartMessage()[pri:0, instance:com.mvn.ha.HomeawayTest@17c68925]" name="emptyCartMessage" duration-ms="10645" started-at="2016-02-08T10:07:21Z" finished-at="2016-02-08T10:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartMessage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mvn.ha.HomeawayTest@17c68925]" name="afterClass" is-config="true" duration-ms="4" started-at="2016-02-08T10:07:32Z" finished-at="2016-02-08T10:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mvn.ha.HomeawayTest -->
+      <class name="com.mvn.ha.AccountDetailsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvn.ha.AccountDetailsTest@4411d970]" name="setUp" is-config="true" duration-ms="4633" started-at="2016-02-08T10:07:32Z" finished-at="2016-02-08T10:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="accountDetails()[pri:0, instance:com.mvn.ha.AccountDetailsTest@4411d970]" name="accountDetails" duration-ms="16244" started-at="2016-02-08T10:07:37Z" finished-at="2016-02-08T10:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountDetails -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mvn.ha.AccountDetailsTest@4411d970]" name="afterClass" is-config="true" duration-ms="4" started-at="2016-02-08T10:07:53Z" finished-at="2016-02-08T10:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mvn.ha.AccountDetailsTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Test Cases -->
+</testng-results>

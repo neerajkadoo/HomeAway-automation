@@ -1,0 +1,17 @@
+<suite name="Test Cases">
+	<test name="Firefox Test" preserve-order="true">
+		<classes>
+			<class name="com.mvn.ha.HomeawayTest">
+				<methods>
+					<include name="checkIphone4s" />
+					<include name="emptyCartMessage" />
+				</methods>
+			</class>
+			<class name="com.mvn.ha.AccountDetailsTest">
+				<methods>
+					<include name="accountDetails" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
