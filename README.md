@@ -16,6 +16,6 @@ I have finished with the exercise with all 4 tests.
   a- Please check "White box testing exercise." file for the bugs identified in the arraylist and Test
   
 4- Specification test:-
-  a- Please refer to "Specification Test" file for questions reaised against the feature specification.
+  a- Please refer to "Specification review exercise.docx" file for questions reaised against the feature specification.
   
 Thank you.
