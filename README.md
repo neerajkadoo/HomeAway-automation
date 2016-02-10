@@ -5,7 +5,7 @@ Hi
 I have finished with the exercise with all 4 tests.
 
 1- To run the First test. Please get "ha" folder.
-  a- Go to the location of the folder and run command "mvn test -pFirefox"
+  a- Go to the location of the folder and run command "mvn test -PFirefox"
 
 2- To run the API test:-
   a- Get the "HA_API_Test-soapui-project.xml" file and open in any editor.
